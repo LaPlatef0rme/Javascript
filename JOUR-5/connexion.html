@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<header>
+    <a href="inscription.html"><button>Inscription</button></a>
+</header>
+
+<body>
+    <form id="MyForm" method="post">
+        <h2> Connectez-vous :</h2><br>
+
+        <label for="mail">Adresse mail :</label><br>
+        <span id="mail-error" class="error"></span>
+        <input type="email" id="mail" name="mail" required placeholder="Doit contenir un @"><br>
+        
+        <label for="password">Mot de passe :</label><br>
+        <span id="password-error" class="error"></span>
+        <input type="password" id="password" name="password" required placeholder="Minimum 8 caractères"><br>
+
+        <button type="submit">Se connecter</button>
+    </form>
+
+    <script src="connexion.js"></script>
+</body>
+</html>

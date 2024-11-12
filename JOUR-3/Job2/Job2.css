@@ -1,0 +1,12 @@
+button {
+    display: flex;
+}
+.win {
+    color: green;
+    font-weight: bold;
+}
+
+.loose {
+    color: red;
+    font-weight: bold;
+}

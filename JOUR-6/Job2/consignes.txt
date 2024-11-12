@@ -1,0 +1,31 @@
+BOOTSTRAP 
+JOB 2
+Fait :
+● Le lien accueil doit mener vers le site de La Plateforme
+
+● Le bouton de la carte “papillon” doit afficher une modale confirmant l’achat d’un papillon.
+
+● Le bouton “Rebooter le Monde” doit modifier le texte du jumbotron et le
+    remplacer par une citation aléatoire du film “Blade Runner” (Pas le
+    2049 !).
+
+● Cliquer sur un élément de la liste groupée à droite doit le rendre actif (à
+l’image du premier élément de la liste qui est actif avec un fond bleu
+sur la photo).
+
+
+Non fait :
+● La pagination doit modifier le contenu du jumbotron par un contenu de
+votre choix.
+
+● Les boutons à gauche et à droite de la progress bar doivent permettre
+de la faire progresser ou régresser
+
+● Presser, dans l’ordre, les touches D, G et C doit faire apparaître une
+modale récapitulant les informations des champs du formulaire en bas
+à gauche.
+
+● Valider le formulaire (en bas à droite) avec un email et un mot de
+passe non vide doit changer aléatoirement la couleur du spinner de la
+page principale du jumbotron.
+

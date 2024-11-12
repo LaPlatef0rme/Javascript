@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<header>
+    <a href="connexion.html"><button>Connexion</button></a>
+</header>
+
+<body>
+    <form id="MyForm" method="post">
+        <h2>Entrez vos informations :</h2><br>
+
+        <label for="lastname">Nom :</label><br>
+        <span id="lastname-error" class="error"></span>
+        <input type="text" id="lastname" name="lastname" required placeholder="Minimum 4 caractères"><br>
+
+        <label for="firstname">Prénom :</label><br>
+        <span id="firstname-error" class="error"></span>
+        <input type="text" id="firstname" name="firstname" required placeholder="Minimum 4 caractères"><br>
+
+        <label for="mail">Adresse mail :</label><br>
+        <span id="mail-error" class="error"></span>
+        <input type="email" id="mail" name="mail" required placeholder="Doit contenir un @"><br>
+
+        <label for="password">Mot de passe :</label><br>
+        <span id="password-error" class="error"></span>
+        <input type="password" id="password" name="password" required placeholder="Minimum 8 caractères"><br>
+
+        <label for="adress">Adresse :</label><br>
+        <span id="adress-error" class="error"></span>
+        <input type="text" id="adress" name="adress" required placeholder="Minimum 10 caractères"><br>
+
+        <label for="postal">Code postal :</label><br>
+        <span id="postal-error" class="error"></span>
+        <input type="number" id="postal" name="postal" required placeholder="Doit contenir 5 caractères" maxlength="5"><br>
+
+        <button type="submit">S'inscrire</button>        
+    </form>
+    <script src="inscription.js"></script>
+</body>
+</html>
